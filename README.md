@@ -42,3 +42,9 @@ File Attributes
 
 3. Create a file test.txt on your desktop and identify its inode number, also create a softlink
    for test.txt in your home.
+
+![Screenshot from 2023-10-06 01-48-05](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/29d29e4c-a874-484d-ae3e-afbe9fe29881)
+
+
+
+

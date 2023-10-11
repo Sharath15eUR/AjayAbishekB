@@ -2,6 +2,8 @@
 
 # Module - 1 Assignments
 
+## Basic Commands
+
 1) Commands are actually files containing programs, often written in C. How will you find out in which directory does  the file corresponding to the man command resides?
 
 2) How will you find out what is the use of the ps command.
@@ -9,7 +11,7 @@
 ![Screenshot from 2023-10-05 22-22-17](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/cf844f1e-4895-425c-bfaf-5d71c33b6477)
 
 
-General Purpose Utilities in Linux
+## General Purpose Utilities in Linux
 
 1)Display the calender for the month of March 2012
 
@@ -28,12 +30,12 @@ General Purpose Utilities in Linux
 ![Screenshot from 2023-10-05 22-48-43](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/4c978379-3333-44a5-9a3f-4418355e2d6e)
 
 
-File Systems
+## File Systems
 ![Screenshot from 2023-10-05 23-06-38](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/14300701-51aa-4b44-a185-6ee68d9ef994)
 ![Screenshot from 2023-10-05 23-06-29](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/8b700430-4f97-4f99-afbf-ef50cd71b10a)
 
 
-File Attributes
+## File Attributes
 
 1. Create a file abc.txt and change the ownership of this file to some other user on your machine,
    and also change the group to family.
@@ -45,6 +47,15 @@ File Attributes
 
 ![Screenshot from 2023-10-06 01-48-05](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/29d29e4c-a874-484d-ae3e-afbe9fe29881)
 
+## Redirection of Pipes
 
+
+1. Create a file name error_log in your current directory. Suppose you do not have any file named aa11 in your current directory. 
+   How  can you redirect the error message to the file error_log when we apply the command "wc -l aa11" ?  
+   How can you ensure that all the error log are appended to the error_log file?
+
+
+2. Create  files named test1, test2, testa, testb
+   How can you count the number of  files starting with test and then having only one digit in their name using only a single line command ?
 
 

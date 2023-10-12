@@ -65,9 +65,29 @@
 1. Open a terminal. Now spawn three shell processes one after another i.e. first spawn one shell, then from the spawned shell, spawn one new shell and so on. Now, 
    how can you see the PID of the current shell ? How can you see the PID of the shell which is the grandparent of the current shell?
 
+![Screenshot from 2023-10-12 14-44-18](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/72f3e066-c267-43da-b4da-30f88e9330f9)
+
 
 2. How can you see all the processes (both system & user processes) in your computer?
    The output can be quite large.  How can you view the output as multipage output ? 
    How can you store the output in a file named process_info?
+
+![Screenshot from 2023-10-12 14-52-49](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/25685b44-3503-4f04-b741-34d98a0fbfcd)
+![Screenshot from 2023-10-12 14-53-57](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/5f3d22cc-4974-4e5a-80e2-1a456a33e47d)
+![Screenshot from 2023-10-12 14-54-01](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/ed096493-4d92-47e5-9017-ad814bce9970)
+![Screenshot from 2023-10-12 14-54-58](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/efc7e569-2d7e-4011-a81e-d456907a1345)
+
+
+# Module - 2
+
+## Environment Variable(Linux Environment)
+
+1. How can you know what is the secondary command prompt set your system ?
+   How can you change the secondary command prompt from the default to your username ?
+
+2. How can you ensure that the mv command (used for renaming a file) always asks for permission before overwriting an existing destination file ? 
+   [ Hint : use alias command ]
+
+
 
 

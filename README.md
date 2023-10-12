@@ -95,17 +95,60 @@
 ## Basics Of System Administration in Linux
 
 1) Create a new user account and home directory called "Duck" 
+![Screenshot from 2023-10-13 06-25-11](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/b8e7abc0-6b39-4a10-ac37-5e8f10bfa67e)
 
 2) Set the user account "Duck's" expirey date as 07 - 01 - 2015
-
 3) find the id of the user account "Duck"
-
 4) Type df and du commands and see the output on your terminal.
+![Screenshot from 2023-10-13 06-20-05](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/bafcbde1-d72d-42fc-8468-87ca13d55e02)
+![Screenshot from 2023-10-13 06-20-18](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/381107b8-baaf-4b34-a3ce-735907e776dd)
 
 5) Type this command on the terminal and see the output :
    du -ch *.txt
+   ![Screenshot from 2023-10-13 06-23-02](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/05f50e8d-b213-4cbf-9449-b1ffbbf83a4f)
 
-6) Delete the user account "Duck" permanently along with its home folder.
+7) Delete the user account "Duck" permanently along with its home folder.
+![Screenshot from 2023-10-13 06-35-58](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/76651845-96ea-4c87-ba74-5f5f41cdb6a5)
+
+
+
+## Simple Filters
+
+Assignement For Topic
+Head
+Assignment i Try what is shown on the video
+Assignment ii 1. Try to get the first 10 lines from /etc/passwd
+2. try to get just the first 3 lines from /etc/passwd
+
+Tail
+Assignment i Try what is shown on the video
+Assignment ii 1. Try to get the Last 10 lines from /etc/passwd
+2. Try to get just the Last 3 lines from /etc/passwd
+3. Try to follow the log file /var/log/auth.log
+
+Sort
+Assignment i Try what is shown on the video
+Assignment ii 1. Try to sort the file /etc/passwd in assending order.
+2. Try to sort the file /etc/passwd in decending order.
+3. Try to sort the file /etc/passwd in assending order based on the 3rd
+
+column.
+4. Try to sort the file /etc/passwd in assending order based on the 3rd
+column and ask sort to look at the thrid column as a whole number.
+
+Cut
+Assignment i Try what is shown on the video
+Assignment ii 1. Try to cut just the usernames from the file /etc/passwd
+
+Paste
+Assignment i Try what is shown on the video
+Assignment ii 1. Create a file alphabets.txt and key in all the 2\6 alphabets each one in a new line.
+2. Create a file number.txt and key in 1 to 2\6 each one in a new line.
+3. Try to paste those two files, to see which letter appears at what number.
+Paste alphabets.txt numbers.txt
+
+
+
 
 
 

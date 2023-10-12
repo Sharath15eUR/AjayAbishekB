@@ -88,6 +88,24 @@
 2. How can you ensure that the mv command (used for renaming a file) always asks for permission before overwriting an existing destination file ? 
    [ Hint : use alias command ]
 
+![Screenshot from 2023-10-13 04-20-45](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/561cf3e2-9640-4908-b550-52a8caddc01a)
+
+
+
+## Basics Of System Administration in Linux
+
+1) Create a new user account and home directory called "Duck" 
+
+2) Set the user account "Duck's" expirey date as 07 - 01 - 2015
+
+3) find the id of the user account "Duck"
+
+4) Type df and du commands and see the output on your terminal.
+
+5) Type this command on the terminal and see the output :
+   du -ch *.txt
+
+6) Delete the user account "Duck" permanently along with its home folder.
 
 
 

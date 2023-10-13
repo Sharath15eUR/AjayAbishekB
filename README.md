@@ -139,10 +139,15 @@ CUT
 ![Screenshot from 2023-10-13 23-36-37](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/6a777d82-6767-49f8-8291-84bd3504eb1b)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 PASTE
-
-
-
+![Screenshot from 2023-10-14 03-02-08](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/e3fa6a1e-6fe6-484a-b5ff-14760c5c7c05)
+![Screenshot from 2023-10-14 03-02-28](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/e3c39aaf-1097-4bec-834c-e7a8179155ed)
+![Screenshot from 2023-10-14 03-07-21](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/ec779641-fcaf-4335-b968-f335a48ddd8f)
+![Screenshot from 2023-10-14 03-08-21](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/5dcc309d-8b8a-4ed0-8538-20fe4c87529c)
+![Screenshot from 2023-10-14 03-07-14](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/1f013458-9dce-4e7a-a568-90e116fa2fdd)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+
+## The Grep Command
+1) Explore some other commands like -E, + and ?
 

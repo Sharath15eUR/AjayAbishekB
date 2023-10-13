@@ -150,4 +150,14 @@ PASTE
 
 ## The Grep Command
 1) Explore some other commands like -E, + and ?
+![Screenshot from 2023-10-14 03-30-24](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/02d72936-024a-4562-af59-947c3760c217)
+![Screenshot from 2023-10-14 03-28-39](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/6c92a645-05c6-430c-a22c-bdd6b5e2c5d4)
+
+
+
+## More on Grep command
+1) List those entries that are 5 letters long and starts with Y
+![Screenshot from 2023-10-14 03-38-23](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/83f68262-9bbc-424a-b6aa-ff6b53f63fc0)
+
+## The sed command
 

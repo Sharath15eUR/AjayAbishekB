@@ -126,9 +126,9 @@
 ![Screenshot from 2023-10-13 23-08-13](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/9802ffa4-b59f-4b91-b431-59c8450dc5b9)
 ![Screenshot from 2023-10-13 23-08-24](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/1671dcb7-0a65-4ba4-954d-206732bd0999)
 ![Screenshot from 2023-10-13 23-08-33](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/856e987a-ef2b-4e22-beaa-0cf195c79d4d)
-![Screenshot from 2023-10-13 23-08-42](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/116d1979-b3b4-4d6d-9f0f-094d1e3cda1a)
 ![Screenshot from 2023-10-13 23-09-05](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/7d0029d2-935a-4a36-b7db-feac3c2dc174)
-
+![Screenshot from 2023-10-13 23-21-32](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/c2f3bc15-5579-415e-9fe8-2fc14dec5f4a)
+![Screenshot from 2023-10-13 23-21-49](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/e0e6ef2a-1890-44ca-9f6a-1dc545142d18)
 
 
 

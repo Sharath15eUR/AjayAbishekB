@@ -114,39 +114,20 @@
 
 ## Simple Filters
 
-Assignement For Topic
-Head
-Assignment i Try what is shown on the video
-Assignment ii 1. Try to get the first 10 lines from /etc/passwd
-2. try to get just the first 3 lines from /etc/passwd
+![Screenshot from 2023-10-13 22-38-48](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/abb4a51e-0eac-4713-961a-58bdebc5e10f)
+![Screenshot from 2023-10-13 22-48-12](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/a26a8110-e132-4a05-a561-066a032f9daf)
+![Screenshot from 2023-10-13 22-48-59](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/ec3700a0-bc63-44cb-a2ed-cae8c94934cd)
+![Screenshot from 2023-10-13 22-56-34](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/9c588cb6-026a-4a60-ac83-bba7d09e666d)
+![Screenshot from 2023-10-13 22-56-48](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/2577ea71-fd18-45c4-a94d-3e47a163f21d)
+![Screenshot from 2023-10-13 22-56-54](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/2503303b-7bab-4e50-9905-b7f3b155ed3c)
 
-Tail
-Assignment i Try what is shown on the video
-Assignment ii 1. Try to get the Last 10 lines from /etc/passwd
-2. Try to get just the Last 3 lines from /etc/passwd
-3. Try to follow the log file /var/log/auth.log
-
-Sort
-Assignment i Try what is shown on the video
-Assignment ii 1. Try to sort the file /etc/passwd in assending order.
-2. Try to sort the file /etc/passwd in decending order.
-3. Try to sort the file /etc/passwd in assending order based on the 3rd
-
-column.
-4. Try to sort the file /etc/passwd in assending order based on the 3rd
-column and ask sort to look at the thrid column as a whole number.
-
-Cut
-Assignment i Try what is shown on the video
-Assignment ii 1. Try to cut just the usernames from the file /etc/passwd
-
-Paste
-Assignment i Try what is shown on the video
-Assignment ii 1. Create a file alphabets.txt and key in all the 2\6 alphabets each one in a new line.
-2. Create a file number.txt and key in 1 to 2\6 each one in a new line.
-3. Try to paste those two files, to see which letter appears at what number.
-Paste alphabets.txt numbers.txt
-
+![Screenshot from 2023-10-13 22-38-42](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/119916c8-55c4-4eed-b86c-ba079c26273c)
+![Screenshot from 2023-10-13 23-07-52](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/e93dec61-c601-4633-8f58-271f99f2b1a1)
+![Screenshot from 2023-10-13 23-08-13](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/9802ffa4-b59f-4b91-b431-59c8450dc5b9)
+![Screenshot from 2023-10-13 23-08-24](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/1671dcb7-0a65-4ba4-954d-206732bd0999)
+![Screenshot from 2023-10-13 23-08-33](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/856e987a-ef2b-4e22-beaa-0cf195c79d4d)
+![Screenshot from 2023-10-13 23-08-42](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/116d1979-b3b4-4d6d-9f0f-094d1e3cda1a)
+![Screenshot from 2023-10-13 23-09-05](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/7d0029d2-935a-4a36-b7db-feac3c2dc174)
 
 
 

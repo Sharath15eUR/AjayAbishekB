@@ -78,7 +78,7 @@
 ![Screenshot from 2023-10-12 14-54-58](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/efc7e569-2d7e-4011-a81e-d456907a1345)
 
 
-# Module - 2
+# Module - 2 Assignments
 
 ## Environment Variable(Linux Environment)
 
@@ -97,7 +97,7 @@
 1) Create a new user account and home directory called "Duck" 
 ![Screenshot from 2023-10-13 06-25-11](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/b8e7abc0-6b39-4a10-ac37-5e8f10bfa67e)
 
-2) Set the user account "Duck's" expirey date as 07 - 01 - 2015
+2) Set the user account "Duck's" expirey date as 07 - 01 - 2025
 3) find the id of the user account "Duck"
 4) Type df and du commands and see the output on your terminal.
 ![Screenshot from 2023-10-13 06-20-05](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/bafcbde1-d72d-42fc-8468-87ca13d55e02)
@@ -160,4 +160,16 @@ PASTE
 ![Screenshot from 2023-10-14 03-38-23](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/83f68262-9bbc-424a-b6aa-ff6b53f63fc0)
 
 ## The sed command
+1) Use the same text file seddemo.txt 
+2) Try to print records from 6th to 12th line.
+![Screenshot from 2023-10-14 05-55-07](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/226fdc2c-dab4-4255-b4a1-c7583f390763)
+
+## More on sed command
+1) Use the same text file seddemo.txt
+2) Try to replace or substitute name Ankit with Ashish
+![Screenshot from 2023-10-14 05-57-36](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/a5e33029-6365-43ba-a654-578b8b00fb52)
+
+# Module - 3 Assignments
+
+## 
 

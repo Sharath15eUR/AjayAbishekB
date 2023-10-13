@@ -115,13 +115,17 @@
 ## Simple Filters
 
 ![Screenshot from 2023-10-13 22-38-48](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/abb4a51e-0eac-4713-961a-58bdebc5e10f)
+HEAD
 ![Screenshot from 2023-10-13 22-48-12](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/a26a8110-e132-4a05-a561-066a032f9daf)
 ![Screenshot from 2023-10-13 22-48-59](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/ec3700a0-bc63-44cb-a2ed-cae8c94934cd)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TAIL
 ![Screenshot from 2023-10-13 22-56-34](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/9c588cb6-026a-4a60-ac83-bba7d09e666d)
 ![Screenshot from 2023-10-13 22-56-48](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/2577ea71-fd18-45c4-a94d-3e47a163f21d)
 ![Screenshot from 2023-10-13 22-56-54](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/2503303b-7bab-4e50-9905-b7f3b155ed3c)
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![Screenshot from 2023-10-13 22-38-42](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/119916c8-55c4-4eed-b86c-ba079c26273c)
+SORT
 ![Screenshot from 2023-10-13 23-07-52](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/e93dec61-c601-4633-8f58-271f99f2b1a1)
 ![Screenshot from 2023-10-13 23-08-13](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/9802ffa4-b59f-4b91-b431-59c8450dc5b9)
 ![Screenshot from 2023-10-13 23-08-24](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/1671dcb7-0a65-4ba4-954d-206732bd0999)
@@ -129,7 +133,16 @@
 ![Screenshot from 2023-10-13 23-09-05](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/7d0029d2-935a-4a36-b7db-feac3c2dc174)
 ![Screenshot from 2023-10-13 23-21-32](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/c2f3bc15-5579-415e-9fe8-2fc14dec5f4a)
 ![Screenshot from 2023-10-13 23-21-49](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/e0e6ef2a-1890-44ca-9f6a-1dc545142d18)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CUT
+![Screenshot from 2023-10-13 23-36-28](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/cee5faa9-13b8-4b5c-bfae-fb0cf633b995)
+![Screenshot from 2023-10-13 23-36-37](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/6a777d82-6767-49f8-8291-84bd3504eb1b)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PASTE
 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 

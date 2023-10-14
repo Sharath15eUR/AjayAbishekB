@@ -212,3 +212,211 @@ echo "Welcome $username"
 
 
 
+## Command Line arguments and Quoting
+
+1) Write a bash program for addition using command line arguments.
+
+Bash script in arg_add.sh:
+
+#!/bin/bash
+
+echo "The First Argument = $1"
+
+echo "The Second Argument = $2"
+
+sum=$(($1+$2))
+
+echo "The sum of first and second argument = $sum"
+
+![B3](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/40fc3642-8103-4009-bd72-4d187c6ecb00)
+
+
+
+## Globbing and Export statement
+
+1) Write a Bash script to do all operations discussed under Globbing
+
+Bash script in globbing.sh:
+
+#!/bin/bash
+
+echo "List of all files having .sh extension"
+
+ls *.sh
+
+echo "List of all files starting with 's' and having .sh extension"
+
+ls s*.sh
+
+echo "List of all files starting with a to s and having .sh extension"
+
+ls [a-s]*.sh
+
+echo "List of all files expect files starting with a to s and having .sh extension"
+
+ls [^a-s]*.sh
+
+echo "List of all files with a or A and having .sh extension"
+
+ls [Aa]*.sh
+
+![1](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/02a724ec-61f1-4c50-9810-662ae84ad9fc)
+![Screenshot from 2023-10-15 08-08-08](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/600d55f8-dbc6-4e76-9a48-45c02ce61e67)
+
+
+## Array Operations in BASH
+
+1) Declare an Array names of length 7 and find
+   a. The total number of elements
+   b. Print all the elements
+   c. Print the 5th element
+
+Bash script in array1.sh:
+
+#!/bin/bash
+
+declare -a names=('Ajay' 'Abi' 'Abishek' 'jay' 'shek' 'tharun' 'dhanush')
+
+echo "The total number of elements in the array names: ${#names[@]}"
+
+echo "All the elements present in the array names: ${names[@]}"
+
+echo "The fiveth element in the array names: ${names[4]}"
+
+![B5](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/6fc15bbc-81da-41cf-bae1-b2e5d11d2c2d)
+
+
+
+## More on Arrays
+
+1) Declare an Array names2 of length 7 and perform following operations-
+   a. Extract three elements starting from index two. 
+   b. Replace third element with 'Debian' and display.
+   c. Append any new name at the end of Array.
+
+Bash script in array2.sh:
+
+#!/bin/bash
+
+declare -a names2=('Vijay' 'Abinav' 'Suman' 'Jhon' 'Kiran' 'Kumar' 'Aravind')
+
+echo -e "All the elements present in the array names2: ${names2[@]}\n"
+
+echo -e "Displaying three elements starting from index 2 present in the array names: ${names2[@]:2:3}\n"
+
+names2[2]='Debian'
+
+echo -e "The elements in the array names2 after replacing third element with Debian: ${names2[@]}\n"
+
+names2=("${names2[@]}" "Vinai")
+
+echo -e "The element in the array names2 after appending a new name at the end of array: ${names2[@]}\n"
+
+![Screenshot from 2023-10-15 09-11-51](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/84512363-f160-4123-9974-f30f793eaede)
+
+
+
+## Conditional execution
+
+1) Write a script which will take your name as an input.
+2) It should check this name with your system's username.
+3) If the username matches, it should greet you by displaying "Hello".
+4) Else, it should display "Try again"
+
+HINT: Your system's username is stored in a variable $USER 
+
+Bash Script in ifelse.sh:
+
+#!/bin/bash
+
+read -p "Enter your name: " username
+
+if [ "$username" == "$USER" ]; then
+
+echo "Hello"
+
+else
+
+echo "Try again"
+
+fi
+
+![B7](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/e475dc42-ada7-4cd3-b46e-47219ce0b441)
+
+
+
+## Nested and multilevel if elsif statements
+
+1) Write a program to output different messages when number is:
+   a. Greater than 3
+   b. Lesser than 3
+   c. Or equal to 3
+   d. Or when the user input is empty
+
+Bash script in multi_nest.sh:
+
+#!/bin/bash
+
+read -p "Enter a number: " num
+
+N="3"
+
+if [ -z "$num" ]; then
+
+  echo "Nothing is entered"
+  
+elif [ "$num" -eq "$N" ]; then
+
+  echo "$num is equal to 3"
+  
+elif [ "$num" -gt "$N" ]; then
+
+  echo "$num is greater than 3"
+  
+elif [ "$num" -lt "$N" ]; then
+
+  echo "$num is lesser than 3"
+  
+fi
+
+![B8](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/064b9e3a-5c02-4d52-866e-4bda16734ccd)
+
+
+
+# Module - 4 Assignments
+
+## Logical Operators
+
+1) Check whether the file exists and is executable using logical operators.
+   Hint:man test
+
+## Arithmetic Comparison
+
+1) Write a program to demonstrate the use of not equal to operator.
+   Hint: -ne
+
+## String and File attributes
+
+1) Explore some more attributes
+   -r
+   -x
+   -o
+
+## Conditional Loops
+
+1) Find the sum of first n prime numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

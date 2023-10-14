@@ -171,5 +171,44 @@ PASTE
 
 # Module - 3 Assignments
 
-## 
+
+## Introduction to Bash
+
+1) Write a simple Bash shell script to display the message "Welcome to Bash learning" and "***************" on separate lines.
+
+Bash Script in the simple_bash.sh:
+
+#!/bin/bash
+
+echo "Welcome to Bash learning"
+
+echo "***************"
+
+![Screenshot from 2023-10-14 23-10-37](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/6bf67d7d-1ae0-4b1a-9e53-7dd4350bc3d2)
+
+
+
+## Basics of Shell Scripting
+
+1) Write a simple Bash program to get the following system variables:
+   a. pwd
+   b. logname
+
+2) Write a simple Bash program:
+   a. To ask username from user
+   b. Exit the program, if user does not enter anything within 10 seconds
+   
+   Hint: read -t 10 -p
+
+Bash scipt in the ip_user.sh:
+
+#!/bin/bash
+
+read -t 10 -p "Enter username: " username
+
+echo "Welcome $username"
+
+![Screenshot from 2023-10-14 23-20-23](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/eb12094d-c6a9-4bb0-914e-9acdc5bbba69)
+
+
 

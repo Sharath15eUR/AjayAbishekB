@@ -561,3 +561,290 @@ esac
 ![B14](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/303201c9-a344-4e3d-ad1e-2a9f3a21a814)
 
 
+
+## Using File Descriptors
+
+1) Try to append few lines to a file test.txt using file descriptor.
+2) Display the content of the file using file descriptor.
+
+Bash script in filedes.sh:
+
+#!/usr/bin/env bash
+
+exec 3> test.txt
+
+exec 4< test.txt
+
+echo "This is Module 4 - 7th assignment" >&3
+
+echo "Thank you!" >&3
+
+cat xyz.txt | wc -c >&3
+
+cat <&4
+
+exec 3<&-
+
+exec 4<&-
+
+![B15](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/b02f3e51-b9a9-4c60-8d59-5e090a0cf4c5)
+
+
+
+## Basics of functions
+
+1) Write a program with two functions: 
+   a. The first function should display diskspace usage in human readable form.
+      (Hint: df -h)
+   b. The second function should display filesystem usage in human readable form.
+      (Hint: du -h)
+
+Bash script in function.sh:
+
+#!/usr/bin/env bash
+
+function func1
+
+{
+
+echo -e "\nDiskspace usage in human readable form: "; df -h
+
+}
+
+function func2
+
+{
+
+echo -e "\nFilesystem usage in human readable form: "; du -h
+
+}
+
+echo "Start of Main program..."
+
+echo "Calling first function: "
+
+func1
+
+echo "Calling second function: "
+
+func2
+
+echo "End of Main program..."
+
+![1](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/77717839-df66-4864-b017-7818813b6bee)
+
+![Screenshot from 2023-10-16 05-57-57](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/60b672fb-ed5b-4c90-9c08-788375f20146)
+
+
+## More on functions
+
+1) Write a program, 
+   a. where the function accepts two arguments.
+   b. The function should multiply the two arguments.
+   c. Make 3 function calls with arguments - (1, 2), (2, 3) and (3, 4)
+
+Bash script in more_fun.sh:
+
+#!/usr/bin/bash
+
+mul()
+
+{
+
+local n1=$1;
+
+local n2=$2;
+
+local n3=$(($n1*$n2))
+
+echo -e "The result of the multiplication : $n3\n"
+
+}
+
+echo "Start of program..."
+
+echo "The first call:"
+
+mul 1 2
+
+echo "The second call:"
+
+mul 2 3
+
+echo "The third call:"
+
+mul 3 4
+
+echo "End of program..."
+
+![B17](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/9e1528c5-4e8a-4bf9-880b-a05717538bc9)
+
+
+
+## Arrays and functions
+
+1) Write a program,
+    a. Where a function adds all the elements in an array. 
+    b. The function should display the sum of elements.
+    c. Make 2 function calls with array elements- (1, 2, 3) and (4, 5, 6).
+
+
+Bash script in arr_fun.sh:
+
+#!/usr/bin/bash
+
+arr_add()
+
+{
+
+array=($@)
+
+sum=0
+
+l=${#array[@]}
+
+for ((i=0;i<l;i++))
+
+do
+
+sum=$(($sum+${array[i]}))
+
+done
+
+echo -e "Sum of elements in the array: $sum\n"
+
+}
+
+echo "Start of main program..."
+
+echo "First call"
+
+arr1=(1 2 3)
+
+arr_add ${arr1[@]}
+
+echo "second call"
+
+arr2=(4 5 6)
+
+arr_add ${arr2[@]}
+
+echo "End of program..."
+
+![B18](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/05fa1a75-dbc5-4268-8c35-ee52d1ae24f2)
+
+
+
+# Module - 5 Assignments
+
+## Advance topics in a function
+
+1) Write a function add to add two numbers and call the function in another file.
+
+Bash script in main.sh:
+
+#!/usr/bin/bash
+
+source add.sh
+
+echo "Start of main program..."
+
+echo "Calling of function add from add.sh"
+
+add 10 34
+
+echo "End of main program..."
+
+
+
+Bash script in add.sh:
+
+#!/usr/bin/bash
+
+add()
+
+{
+
+n3=$(($1+$2))
+
+echo "The sum of the numbers: $n3"
+
+}
+
+![B19](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/a0061185-fc1d-4251-bb03-4f44d4b31cd7)
+
+
+## Recursive function
+
+1) Write a program where the recursive function calculates the sum of N numbers
+
+Bash script in rec_fun.sh:
+
+#!/usr/bin/bash
+
+sum_n()
+
+{
+
+l=$1
+
+if [ $l -eq 0 ]; then
+
+echo "0"
+
+else
+
+sum=$((l-1))
+
+sum=$(sum_n $sum)
+
+sum=$((sum+l))
+
+echo "$sum"
+
+fi
+
+}
+
+sum=0
+
+read -p "Enter a number: " n
+
+sum_n $n
+
+![B20](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/38267b78-c390-44c7-a871-3aca9e5562fe)
+
+## Basics of Redirection (error handling)
+
+1) Write a program in any language like C, C++, Java.
+2) And redirect the output or error to a new file.
+
+OR
+
+3) Create a text file with some content like your name, address.
+4) Redirect the content to a new file. 
+
+
+## More on Redirection
+
+1) Create X_file.txt file with some content.
+2) Redirect the content of both out_file.txt and X_file.txt to a new file
+
+
+## Here document and Here string
+
+1) Convert a string to uppercase using:
+	a) Here document
+	b) Here string
+	
+Hint: tr a-z A-Z
+
+
+
+
+
+
+
+
+
+

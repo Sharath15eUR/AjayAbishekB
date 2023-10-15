@@ -483,15 +483,81 @@ echo '-o attribute'
 
 
 
+## More on Loops
+
+1) Retype nested-for.sh bash script using nested while loop
+2) Save your program with the name: nested-while.sh
+
+Bash script in nested-while.sh:
+
+#!/usr/bin/env bash
+
+ls -d test* | while read -r dir
+
+do
+
+  echo "Files in $dir directory"
+  
+  echo ""
+  
+  ls -1 "$dir" | while read -r file
+  
+  do
+  
+    echo "$file"
+    
+  done
+
+  echo "-----------------------"
+  
+done
+
+![1](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/00346cd1-e4f1-42c0-843c-70e353fcb6c1)
+![Screenshot from 2023-10-16 04-04-53](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/0443dd4a-3a13-40fc-b7e8-5701dd97af50)
 
 
+## Case statement
 
+1) Write a menu driven program for mathematical calculation
+   a. It should take user inputs a and b
+   b. It should ask for mathematical operator (+, -, / and *).
+   c. Do the calculation
+   d. Print the output
 
+Bash script in case.sh:
 
+#!/usr/bin/env bash
 
+read -p "Enter first number: " n1
 
+read -p "Enter second number: " n2
 
+read -p "Enter the mathematical operator twice: " o
 
+case $o in 
 
+++) echo "$(($n1+$n2))"
+
+;;
+
+//) echo "$(($n1/$n2))"
+
+;;
+
+--) echo "$(($n1-$n2))"
+
+;;
+
+**) echo "$(($n1*$n2))"
+
+;;
+
+*) echo "Invalid operator"
+
+;;
+
+esac
+
+![B14](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/303201c9-a344-4e3d-ad1e-2a9f3a21a814)
 
 

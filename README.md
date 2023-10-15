@@ -390,10 +390,57 @@ fi
 1) Check whether the file exists and is executable using logical operators.
    Hint:man test
 
+Bash script in logical.sh:
+
+#!/bin/bash
+
+read -p "Enter the filename: " file1
+
+if [ -f "$file1" ] && [ -x "$file1" ]; then 
+
+echo "$file1 exists and it is executable"
+
+elif [ -f "$file1" ] && [ ! -x "$file1" ]; then 
+
+echo "$file1 exists but it is not executable"
+
+else
+
+echo "$file1 does not exist thus it is not executable"
+
+fi
+
+![B9](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/e244a05c-1e5e-491f-a375-d69699f1df80)
+
+
+
+
 ## Arithmetic Comparison
 
 1) Write a program to demonstrate the use of not equal to operator.
    Hint: -ne
+
+Bash script in notequal.sh:
+
+#!/bin/bash
+
+read -p "Enter the filename: " file1
+
+a=`cat $file1 | wc -c`
+
+if [ $a -ne 0 ]; then 
+
+echo "$file1 is not an empty file"
+
+else
+
+echo "$file1 is an empty file"
+
+fi
+
+![B10](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/2326c626-1ffd-4d00-8581-b3b14d876218)
+
+
 
 ## String and File attributes
 
@@ -401,6 +448,34 @@ fi
    -r
    -x
    -o
+
+Bash script in fileattrib.sh:
+
+#!/bin/bash
+
+read -p "Enter the filename: " y
+
+if [ -r "$y" ] && [ -x "$y" ]; then
+
+echo -e "$y is readable and excutable\n"
+
+elif [ -r "$y" ] && [ ! -x "$y" ]; then
+
+echo -e "$y is readable but not excutable\n"
+
+else
+
+echo -e "$y does not exist\n"
+
+fi
+
+echo '-o attribute'
+
+[ -o "$y" ]; echo $?
+
+![1](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/355b6792-5816-41df-af68-cd1183b7ca1a)
+![Screenshot from 2023-10-15 22-32-07](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/2ddb3714-3a3b-4345-ad57-30961b9bd766)
+
 
 ## Conditional Loops
 

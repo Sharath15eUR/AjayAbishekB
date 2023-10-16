@@ -481,6 +481,45 @@ echo '-o attribute'
 
 1) Find the sum of first n prime numbers.
 
+Bash script in prime1.sh:
+#!/bin/bash
+
+# Function to check if a number is prime
+is_prime() {
+    local num=$1
+    if [ "$num" -lt 2 ]; then
+        return 1
+    fi
+    for ((i = 2; i <= num / 2; i++)); do
+        if [ $((num % i)) -eq 0 ]; then
+            return 1
+        fi
+    done
+    return 0
+}
+
+# Function to calculate the sum of the first N prime numbers
+sum_of_primes() {
+    local n=$1
+    local sum=0
+    local count=0
+    local num=2
+
+    while [ "$count" -lt "$n" ]; do
+        if is_prime "$num"; then
+            sum=$((sum + num))
+            count=$((count + 1))
+        fi
+        num=$((num + 1))
+    done
+
+    echo "Sum of the first $n prime numbers: $sum"
+}
+
+# Usage: ./prime_sum.sh N
+read -p "Enter a number: " N
+sum_of_primes "$N"
+
 
 
 ## More on Loops
@@ -824,11 +863,44 @@ OR
 3) Create a text file with some content like your name, address.
 4) Redirect the content to a new file. 
 
+Bash script:
+#!/bin/bash
+
+content="Name: John Doe
+Address: 123 Main St, City, Country"
+
+echo "$content" > original_file.txt
+
+cp original_file.txt redirected_file.txt
+
+echo "Content redirected to 'redirected_file.txt'."
+
 
 ## More on Redirection
 
 1) Create X_file.txt file with some content.
 2) Redirect the content of both out_file.txt and X_file.txt to a new file
+Bash script:
+#!/bin/bash
+
+
+x_file_content="This is content for X_file.txt."
+
+
+echo "$x_file_content" > X_file.txt
+
+
+out_file_content="This is content for out_file.txt."
+
+
+echo "$out_file_content" > out_file.txt
+
+
+cat out_file.txt X_file.txt > combined_output.txt
+
+echo "Content from out_file.txt and X_file.txt redirected to combined_output.txt."
+
+
 
 
 ## Here document and Here string
@@ -839,7 +911,23 @@ OR
 	
 Hint: tr a-z A-Z
 
+Bash script 
 
+#!/bin/bash
+
+string1="i am ajay"
+
+string2="i am abishek too"
+
+uppercase1=$(tr 'a-z' 'A-Z' <<EOF
+$string1
+EOF
+)
+uppercase2=$(tr 'a-z' 'A-Z' <<< "$string2")
+
+echo "Uppercase using a here document: $uppercase1"
+
+echo "Uppercase using a here string: $uppercase2"
 
 
 

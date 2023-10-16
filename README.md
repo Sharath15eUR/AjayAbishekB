@@ -482,43 +482,68 @@ echo '-o attribute'
 1) Find the sum of first n prime numbers.
 
 Bash script in prime1.sh:
+
 #!/bin/bash
 
-# Function to check if a number is prime
 is_prime() {
+
     local num=$1
+    
     if [ "$num" -lt 2 ]; then
+    
         return 1
+	
     fi
+    
     for ((i = 2; i <= num / 2; i++)); do
+    
         if [ $((num % i)) -eq 0 ]; then
+	
             return 1
+	    
         fi
+	
     done
+    
     return 0
+    
 }
 
-# Function to calculate the sum of the first N prime numbers
+
 sum_of_primes() {
+
     local n=$1
+    
     local sum=0
+    
     local count=0
+    
     local num=2
 
     while [ "$count" -lt "$n" ]; do
+    
         if is_prime "$num"; then
+	
             sum=$((sum + num))
+	    
             count=$((count + 1))
+	    
         fi
+	
         num=$((num + 1))
+	
     done
 
     echo "Sum of the first $n prime numbers: $sum"
+    
 }
 
-# Usage: ./prime_sum.sh N
 read -p "Enter a number: " N
+
 sum_of_primes "$N"
+
+![Screenshot from 2023-10-16 14-10-38](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/5c8ec975-f290-4fe9-890d-cc9c5d9542c7)
+
 
 
 
@@ -543,7 +568,7 @@ do
   
   do
   
-    echo "$file"
+  echo "$file"
     
   done
 
@@ -863,43 +888,46 @@ OR
 3) Create a text file with some content like your name, address.
 4) Redirect the content to a new file. 
 
-Bash script:
+Bash script in B_21.sh:
+
 #!/bin/bash
 
-content="Name: John Doe
-Address: 123 Main St, City, Country"
+content="Name: Ajay Abishek
+Address: 45 Main St,Coimbatore, TamilNadu"
 
 echo "$content" > original_file.txt
 
-cp original_file.txt redirected_file.txt
+cat original_file.txt > redirected_file.txt
 
-echo "Content redirected to 'redirected_file.txt'."
+echo "Content of 'original_file.txt' is redirected to 'redirected_file.txt'."
+
+![B21](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/0e277762-29a1-473d-bc63-9fd0d48e9a02)
+
 
 
 ## More on Redirection
 
 1) Create X_file.txt file with some content.
-2) Redirect the content of both out_file.txt and X_file.txt to a new file
-Bash script:
-#!/bin/bash
 
+2) Redirect the content of both out_file.txt and X_file.txt to a new file
+
+Bash script in B_22.sh:
+
+#!/bin/bash
 
 x_file_content="This is content for X_file.txt."
 
-
 echo "$x_file_content" > X_file.txt
-
 
 out_file_content="This is content for out_file.txt."
 
-
 echo "$out_file_content" > out_file.txt
-
 
 cat out_file.txt X_file.txt > combined_output.txt
 
-echo "Content from out_file.txt and X_file.txt redirected to combined_output.txt."
+echo "Contents from out_file.txt and X_file.txt are redirected to combined_output.txt."
 
+![B22](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/be0c301f-7141-44cf-9a1a-a2d830d9fb58)
 
 
 
@@ -911,7 +939,7 @@ echo "Content from out_file.txt and X_file.txt redirected to combined_output.txt
 	
 Hint: tr a-z A-Z
 
-Bash script 
+Bash script in B_23.sh:
 
 #!/bin/bash
 
@@ -929,7 +957,7 @@ echo "Uppercase using a here document: $uppercase1"
 
 echo "Uppercase using a here string: $uppercase2"
 
-
+![B23](https://github.com/Sharath15eUR/AjayAbishekB/assets/143872071/a7a917f1-7f14-4669-bd33-4dfb90b2cf5e)
 
 
 
